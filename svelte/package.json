@@ -1,0 +1,17 @@
+{
+    "name": "eslint-configs-hub-svelte",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "lint": "eslint",
+        "lint:fix": "yarn lint --fix"
+    },
+    "devDependencies": {
+        "@antfu/eslint-config": "^4.13.2",
+        "eslint": "^9.27.0",
+        "eslint-plugin-format": "^1.0.1",
+        "eslint-plugin-playwright": "^2.2.0",
+        "eslint-plugin-svelte": "^2.15.0",
+        "eslint-plugin-testing-library": "^7.5.3"
+    }
+}
